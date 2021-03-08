@@ -9,14 +9,13 @@ html {
 
 .a_ {
     height: 1.87rem;
-    background: url(./../img/二手房列表/bg1.png) ;
+    background: url(./../img/二手房列表/bg1.png);
     overflow: hidden;
     font-size: .14rem;
     position: relative;
 }
 
 .a_>:nth-child(1) {
-   
     height: .53rem;
     margin-right: .8rem;
     margin-top: .15rem;
@@ -25,13 +24,14 @@ html {
     top: 0;
     right: 0;
 }
-.a_>div>img{
+
+.a_>div>img {
     width: .2rem;
     height: .2rem;
     margin-left: .03rem;
 }
+
 .a_>:nth-child(2) {
-   
     height: .53rem;
     margin-right: .25rem;
     margin-top: .15rem;
@@ -40,15 +40,17 @@ html {
     top: 0;
     right: 0;
 }
-.a_>img{
+
+.a_>img {
     width: .53rem;
     height: .53rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.a_>:last-child{
+
+.a_>:last-child {
     width: .7rem;
     height: .3rem;
     color: #ffffff;
@@ -58,41 +60,48 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     margin-top: .5rem;
     line-height: .3rem;
 }
-.a_1{
+
+.a_1 {
     width: 100%;
     color: #666666;
     margin-top: .1rem;
     font-size: .14rem;
 }
-.a_1>ul{
+
+.a_1>ul {
     list-style: none;
     float: left;
     margin-left: .3rem;
 }
-.a_1>ul>li{
+
+.a_1>ul>li {
     width: 3.2rem;
     height: .5rem;
-    border-bottom:1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
     float: left;
     line-height: .5rem;
 }
-.a_1>ul>li>:nth-child(1){
+
+.a_1>ul>li>:nth-child(1) {
     float: left;
     width: .2rem;
     height: .2rem;
     margin-top: .1rem;
 }
-.a_1>ul>li>p{
+
+.a_1>ul>li>p {
+    box-sizing: border-box;
     float: left;
-    
+    padding-left: 0.05rem;
 }
-.a_1>ul>li>:nth-child(3){
-    margin-left: 2.08rem;
+
+.a_1>ul>li>:nth-child(3) {
+    margin-left: 2rem;
     margin-top: .17rem;
-    
     height: .15rem;
+    float: left;
 }

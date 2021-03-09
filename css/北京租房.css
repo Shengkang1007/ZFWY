@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100px;
+}
+ul {
+  list-style: none;
+}
+#bj .a_ {
+  height: 0.5rem;
+  background: #ff8a00;
+  overflow: hidden;
+}
+#bj .a_ > :nth-child(1) {
+  width: 1rem;
+  height: 0.29rem;
+  float: left;
+  margin-left: 0.35rem;
+  margin-top: 0.1rem;
+}
+#bj .a_ > :nth-child(2) {
+  float: left;
+  width: 0.22rem;
+  height: 0.3rem;
+  margin-left: 1.5rem;
+  margin-top: 0.1rem;
+}
+#bj .a_ > :nth-child(3) {
+  float: left;
+  width: 0.23rem;
+  height: 0.3rem;
+  margin-left: 0.2rem;
+  margin-top: 0.1rem;
+}
+#bj .uls {
+  display: flex;
+  height: 0.5rem;
+  align-items: center;
+  padding-left: 0.15rem;
+  background: #fff;
+  border-bottom: 2px solid #666;
+}
+#bj .uls :nth-child(1) {
+  font-weight: bold;
+}
+#bj .uls li {
+  font-size: 0.16rem;
+  margin-right: 0.05rem;
+}
+#bj .divs {
+  position: relative;
+  background: #ccc;
+  height: 0.55rem;
+  padding: 0.12rem 0.18rem;
+  font-size: 0.2rem;
+}
+#bj .divs input {
+  width: 96%;
+  height: 0.5rem;
+  border-radius: 0.05rem;
+  border: 1px solid #666;
+  outline: none;
+  font-size: 0.2rem;
+  padding-left: 0.1rem;
+}
+#bj .divs p {
+  position: absolute;
+  top: 0.22rem;
+  left: 2.9rem;
+}
+#bj .divs img {
+  position: absolute;
+  top: 0.22rem;
+  left: 3.1rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+#bj .uls1 {
+  border-top: 2px solid #666;
+  border-bottom: 1px solid #666;
+  display: flex;
+  height: 0.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+#bj .uls1 li {
+  width: 20%;
+  position: relative;
+  font-size: 0.2rem;
+}
+#bj .uls1 li img {
+  width: 0.2rem;
+  height: 0.15rem;
+  position: absolute;
+  top: 0.03rem;
+  left: 0.4rem;
+}
+#bj .divs1 {
+  padding: 0.2rem;
+  font-size: 0.14rem;
+}
+#bj .divs1 .divs2 {
+  border-bottom: 1px solid #ff8a00;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 0.2rem;
+}
+#bj .divs1 .divs2 img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.2rem;
+}
+#bj .divs1 .divs2 .divs3 ul li:nth-child(1) {
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+#bj .divs1 .divs2 .divs3 ul li {
+  margin-bottom: 0.05rem;
+}
+#bj .divs1 .divs2 .divs3 ul li .span2 {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.2rem;
+  border: 1px solid green;
+  color: green;
+}
+#bj .divs1 .divs2 .divs3 ul li :nth-child(2) {
+  color: #ff8a00;
+  display: inline-block;
+  margin-left: 1rem;
+}
+#bj .a_10 {
+  height: 0.41rem;
+  background: #2f3130;
+}
+#bj .a_10 > p {
+  width: 3.5rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.14rem;
+  height: 0.39rem;
+  margin: 0 auto;
+  line-height: 0.39rem;
+  color: #8f9090;
+}
+#bj .a_11 {
+  height: 0.64rem;
+  background: #2f3130;
+  overflow: hidden;
+}
+#bj .a_11 > ul {
+  list-style: none;
+  font-size: 0.14rem;
+  float: left;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+}
+#bj .a_11 > ul > li {
+  float: left;
+  width: 1.5rem;
+}
+#bj .a_11 > ul > :nth-child(2) {
+  margin-left: 0.4rem;
+}
+#bj .a_11 > ul > li > img {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: left;
+}
+#bj .a_11 > ul > li > p {
+  float: left;
+  margin-left: 0.25rem;
+}
+#bj .a_12 {
+  height: 0.4rem;
+  background: #171818;
+}
+#bj .a_12 > img {
+  width: 0.2rem;
+  height: 0.2rem;
+  float: left;
+}
+#bj .a_12 > p {
+  font-size: 0.12rem;
+  color: #494a4a;
+  margin-left: 0.9rem;
+}
+#bj .a_12 > p > span {
+  margin-left: 0.2rem;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./../css/注册.css">
+    <script src="./../js/jquery-3.5.1.js"></script>
+    <script src="./../js/touch-0.2.14.min.js"></script>
+
+</head>
+
+<body>
+    <div class="top">
+        <img src="./../img/找房无忧首页/logo.jpg" alt="">
+        <img src="./../img/找房无忧首页/xiazai.jpg" alt="">
+        <img src="./../img/找房无忧首页/my.jpg" alt="">
+    </div>
+    <div class="s1">
+        <a href="./找房无忧首页.html">首页</a>>
+        <a href="#">我的</a>>注册
+    </div>
+    <div class="s3-2">
+        <div>
+            <input type="text" placeholder="请输入手机号码">
+            <button>发送验证码</button>
+        </div>
+        <div><input type="password" placeholder="请输入短信中的验证码"></div>
+        <div><input type="password" placeholder="请输入新密码"></div>
+    </div>
+    <div class="s4">
+        <button>立即登录</button>
+    </div>
+
+
+</body>
+
+</html>
+<script>
+    function setfont() {
+        var uiw = 375;
+        var winw = document.documentElement.clientWidth || document.body.clientWidth;
+        document.documentElement.style.fontSize = (winw / uiw) * 10 + 'px';
+
+    }
+    setfont();
+    window.onresize = setfont;
+</script>
+<script src="./../js/登录.js"></script>

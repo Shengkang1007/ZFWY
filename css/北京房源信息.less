@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+ul{
+    list-style: none;
+}
+html {
+    font-size: 100px;
+}
+
+.a_ {
+    height: .5rem;
+    background: #ff8a00;
+    overflow: hidden;
+}
+.a_>:nth-child(1) {
+    width: 1rem;
+    height: .29rem;
+    float: left;
+    margin-left: .35rem;
+    margin-top: .1rem;
+}
+
+.a_>:nth-child(2) {
+    float: left;
+    width: .22rem;
+    height: .3rem;
+    margin-left: 1.5rem;
+    margin-top: .1rem;
+}
+
+.a_>:nth-child(3) {
+
+    float: left;
+    width: .23rem;
+    height: .3rem;
+    margin-left: .2rem;
+    margin-top: .1rem;
+}
+.a_11{
+    height: .64rem;
+    background: #2f3130;
+    overflow: hidden;
+}
+.a_11>ul{
+    list-style: none;
+    font-size: .14rem;
+    float: left;
+    margin-top: .1rem;
+    margin-left: .2rem;
+}
+.a_11>ul>li{
+    float: left;
+    width: 1.5rem;
+  
+    
+}
+.a_11>ul>:nth-child(2){
+    margin-left: .4rem;
+}
+.a_11>ul>li>img{
+    width: .3rem;
+    height: .3rem;
+    float: left;
+
+}
+.a_11>ul>li>p{
+    float: left;
+    margin-left: .25rem;
+    color: #939494;
+}
+.a_12{
+    height: .4rem;
+    background: #171818;
+}
+.a_12>img{
+    width: .2rem;
+    height: .2rem;
+    float: left;
+}
+.a_12>p{
+    font-size: .12rem;
+    color: #939494;
+    margin-left: .9rem;
+}
+.a_12>p>span{
+    margin-left: .2rem;
+}
+// 中部
+.top_title{
+    width: 100%;
+    height: .36rem;
+    span{
+        letter-spacing: .01rem;
+        height: .36rem;
+        line-height: .36rem;
+        float: left;
+        font-size: .16px;
+    }
+    span:nth-child(1){
+        font-weight:600 ;
+        margin-left: .15rem;
+
+    }
+}
+.top_img{
+    position: relative;
+    width: 100%;
+    height: 1.85rem;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .top_img_search{
+        width: .6rem;
+        height: .4rem;
+        line-height: .4rem;
+        padding-left: .15rem;
+        position: absolute;
+        font-size: .16rem;
+        color: white;
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: .1rem;
+        bottom: .1rem;
+        right: -.15rem;
+    }
+}
+
+.top_img_txt{
+    width: 100%;
+    height: .73rem;
+    display: flex;
+    font-size: .18rem;
+    border-bottom: 1px solid #ccc;
+    span:nth-child(1){
+        padding-top: .15rem;
+        padding-left: .15rem;
+        font-weight:600 ;
+        flex:3.5 ;
+        height: .58rem;
+        // line-height: .73rem;
+        border-right: 1px solid #ccc ;
+    }
+    span:nth-child(2){
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-top: .1rem;
+        img{
+            width: .3rem;
+            height: .3srem;
+            margin:  0 auto;
+        }
+        span{
+            text-align: center;
+            font-size: .16rem;
+            padding: 0;
+        }
+    }
+}
+.house_mes1{
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+
+    li{
+        flex: 1;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        font-size: .16rem;
+        text-align: center;
+        span:nth-child(2){
+            color: #ff8a00;
+            margin-top: .1rem;
+        }
+    }
+    li:nth-child(2){
+        border-left: 2px solid #ccc;
+        border-right: 2px solid #ccc;
+    }
+}
+.house_mes2{
+    height: 1.55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .16rem;
+    font-weight: 500;
+    li{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        border-bottom: 1px solid #ccc;
+        span:nth-child(1){
+            width: 50%;
+        }
+    }
+}
+.broker_comment{
+    margin: 0 auto;
+    padding-left: .15rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 90%;
+    // height: 1.70rem;
+    margin-top: .1rem;
+    display: flex;
+    flex-direction: column;
+    .broker_comment_title{
+        width: 100%;
+        // height: .45rem;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        span{
+        width: 92%;
+        font-size: .25rem;
+        color: orange;
+        font-weight: 600;
+        height: .45rem;
+        line-height: .45rem;
+        }
+        img{
+            width: .1rem;
+            height: .15rem;
+        }
+    }
+    .broker_comment_con{
+        padding: .1rem;
+        padding-left: 0;
+        font-size: .16rem;
+    }
+    
+}
+.location{
+    .broker_comment_con{
+        border: 1px solid #ccc;
+        padding-right: 0;
+        margin-top: .1rem;
+        width: 95%;
+        font-size: .18rem;
+        font-weight: 600;
+        .location_title{
+            padding-bottom: .1rem;
+            border-bottom: 1px solid #ccc;
+        }
+        .location_map{
+            #container {
+                width: 100%;
+                height: 100%;
+            }
+            #info{
+                position: absolute;
+                background: #FFF;
+                width:300px;
+                height: 25px;
+                padding: 20px;
+                z-index: 9999;
+                top: 30px;
+                left: 30px;
+            }
+            #getcenter{
+                position: absolute;
+                left:20px;
+                top:10px;
+        
+            }
+            #setcenter{
+                position: absolute;
+                left:110px;
+                top:10px;
+        
+            }
+        }
+    }
+}
+.history{
+    .broker_comment_con{
+        span:nth-child(1){
+            color: #de6843;
+            display: inline-block;
+            margin-bottom: .25rem;
+        }
+    }
+}
+.relation{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    font-size: .16rem;
+    margin-top: .1rem;
+    padding-bottom: .07rem;
+    padding-top: .05rem;
+    .relation_img{
+         flex: 1;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         img{
+            width: .4rem;
+            height: .4rem;
+        }
+    }
+    .name{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .call{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        color: #5dcb96;
+        img{
+            width: .3rem;
+            height: .3rem;
+        }
+    }
+    .note{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        color: #5baede;
+        img{
+            width: .3rem;
+            height: .3rem;
+        }
+    }
+}

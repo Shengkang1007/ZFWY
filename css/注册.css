@@ -75,6 +75,7 @@ body .s3-2 div {
   box-sizing: border-box;
   border-bottom: 1px solid #ccc;
   padding: 0.5rem 2rem;
+  position: relative;
 }
 body .s3-2 div input {
   width: 90%;
@@ -82,6 +83,17 @@ body .s3-2 div input {
   font-size: 1.5rem;
   outline-style: none;
   border: none;
+}
+body .s3-2 div span {
+  font-size: 1.6rem;
+  color: red;
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+  display: none;
+}
+body .s3-2 div .sjhsrcw {
+  right: 12rem;
 }
 body .s4 {
   width: 100%;

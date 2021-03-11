@@ -14,13 +14,13 @@
 
 <body>
     <div class="top">
-        <img src="./../img/找房无忧首页/logo.jpg" alt="">
+        <img class="img1" src="./../img/找房无忧首页/logo.jpg" alt="">
         <img src="./../img/找房无忧首页/xiazai.jpg" alt="">
-        <img src="./../img/找房无忧首页/my.jpg" alt="">
+        <a href="./我的.html"><img src="./../img/找房无忧首页/my.jpg" alt=""></a>
     </div>
     <div class="s1">
         <a href="./找房无忧首页.html">首页</a>>
-        <a href="#">我的</a>>登录
+        <a href="./我的.html">我的</a>>登录
     </div>
     <div class="s2">
         <div>
@@ -32,23 +32,33 @@
             <p class="y-p"></p>
         </div>
     </div>
-    <div class="s3">
-        <div><input type="text" placeholder="请输入手机号码"></div>
-        <div><input type="password" placeholder="请输入密码"></div>
+    <div class="s3 show">
+        <div>
+            <input type="text" placeholder="请输入手机号码">
+            <span>手机号输入错误</span>
+        </div>
+        <div>
+            <input type="password" placeholder="请输入密码">
+            <span>密码输入错误</span>
+        </div>
     </div>
     <div class="s3-2">
         <div>
             <input type="text" placeholder="请输入手机号码">
-            <button>发送验证码</button>
+            <span>手机号输入错误</span>
+
         </div>
-        <div><input type="password" placeholder="请输入短信中的验证码"></div>
+        <div>
+            <input type="password" placeholder="请输入短信中的验证码">
+            <span>验证码错误</span>
+        </div>
     </div>
     <div class="s4">
-        <button>立即登录</button>
+        <button class="go">立即登录</button>
     </div>
     <div class="s5">
-        <p>立即注册</p>
-        <p>忘记密码</p>
+        <a href="./注册.html">立即注册</a>
+        <a href="./找回密码.html">忘记密码</a>
     </div>
 
 

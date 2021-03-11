@@ -14,24 +14,31 @@
 
 <body>
     <div class="top">
-        <img src="./../img/找房无忧首页/logo.jpg" alt="">
+        <img class="img1" src="./../img/找房无忧首页/logo.jpg" alt="">
         <img src="./../img/找房无忧首页/xiazai.jpg" alt="">
-        <img src="./../img/找房无忧首页/my.jpg" alt="">
+        <a href="./我的.html"><img src="./../img/找房无忧首页/my.jpg" alt=""></a>
     </div>
     <div class="s1">
         <a href="./找房无忧首页.html">首页</a>>
-        <a href="#">我的</a>>注册
+        <a href="./我的.html">我的</a>>注册
     </div>
     <div class="s3-2">
         <div>
-            <input type="text" placeholder="请输入手机号码">
-            <button>发送验证码</button>
+            <input class="DH" type="text" placeholder="请输入手机号码">
+            <button class="send">发送验证码</button>
+            <span class="sjhsrcw">手机号输入错误</span>
         </div>
-        <div><input type="password" placeholder="请输入短信中的验证码"></div>
-        <div><input type="password" placeholder="请输入新密码"></div>
+        <div>
+            <input class="YZM" type="text" placeholder="请输入短信中的验证码">
+            <span>验证码错误</span>
+        </div>
+        <div>
+            <input class="MM" type="password" placeholder="请输入密码">
+            <span>密码输入错误</span>
+        </div>
     </div>
     <div class="s4">
-        <button>立即登录</button>
+        <button class="go">立即注册</button>
     </div>
 
 
@@ -48,4 +55,4 @@
     setfont();
     window.onresize = setfont;
 </script>
-<script src="./../js/登录.js"></script>
+<script src="../js/注册.js"></script>

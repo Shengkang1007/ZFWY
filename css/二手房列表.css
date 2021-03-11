@@ -241,10 +241,10 @@ html {
 .b_>:nth-child(2){
     margin-left: .4rem;
 }
-.b_>:nth-child(2)>:nth-child(3){
+.b_ .lei{
     color: #ff8a00;
 }
-.b_>:nth-child(3)>:nth-child(1){
+.b_ .ming{
     color: #ff8a00;
 }
 .b_1{
@@ -255,6 +255,9 @@ html {
     overflow: hidden;
     left: 0;
     background: #ffffff;
+}
+.b_1 .buxian{
+    color: red;
 }
 .b_1>li{
     width: 3.35rem;
@@ -319,6 +322,15 @@ html {
     top: 1.8rem;
     left: 0;
     background: #ffffff;
+}
+.b_3 .nan{
+    color: red;
+}
+.b_3 .wushi{
+    color: red;
+}
+.b_3 .xuequ{
+    color: red;
 }
 .b_3>div{
     width: 3.5rem;

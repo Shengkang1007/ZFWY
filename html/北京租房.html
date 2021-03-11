@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-09 18:30:59
- * @LastEditTime: 2021-03-09 20:00:38
+ * @LastEditTime: 2021-03-11 12:02:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \gshop-server_finale:\有关JS、vue的练习\移动端\找房无忧\ZFWY\html\北京租房.html
@@ -37,7 +37,7 @@
         </div>
         <ul class="uls1">
             <li>
-                <span>区域</span>
+                <span class="quyu">区域</span>
                 <img src="../img/北京租房/login-two.png" alt="">
             </li>
             <li>
@@ -167,12 +167,13 @@
     }
     obj()
     window.onresize = obj;
-</script>
+</script> 
 <script>
 
-    $('.uls1 li').click(function () {
+    $('.uls1 li span').click(function () {
         // $(this).show().siblings().hide()
-        $(this).css('color', 'red').siblings().css('color', '#000')
+        $(this).css('color', 'red').parent().siblings().find('span').css('color', '').removeClass('quyu')
+        
     })
 
 </script>

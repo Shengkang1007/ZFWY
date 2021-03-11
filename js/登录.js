@@ -21,25 +21,75 @@ touch.on(y, 'tap', function() {
     p_p.css('background', '#ccc');
 });
 // --------------------------------------
-//登录
-var go = $('.go')
-var DH, MM, YZM;
+//验证
 var s3_DH = $('.s3 input:first');
 var s3_MM = $('.s3 input:last');
 var s3_2_DH = $('.s3-2 input:first');
 var YZMobj = $('.s3-2 input:last');
 var yzm_btn = $('.s3-2 button')
+var phone = /^1[3-8]\d{9}$/;
+var testP = /(?!^([a-zA-Z]+|\d+|[~!@#$%^&*?]+)$)^[\w~!@#$%^&*?]{6,20}$/;
+var biaoshi = 0;
+
+s3_DH.blur(function() {
+
+    if (s3_DH.val().match(phone) == null) {
+        s3_DH.siblings('span').css('display', 'block');
+    } else {
+        s3_DH.siblings('span').css('display', 'none');
+        biaoshi += 1;
+
+    };
+});
+s3_2_DH.blur(function() {
+
+    if (s3_2_DH.val().match(phone) == null) {
+        s3_2_DH.siblings('span').css('display', 'block');
+    } else {
+        s3_2_DH.siblings('span').css('display', 'none');
+        biaoshi += 1;
+
+    };
+});
+s3_MM.blur(function() {
+    if (s3_MM.val().match(testP) == null) {
+        s3_MM.siblings('span').css('display', 'block');
+    } else {
+        s3_MM.siblings('span').css('display', 'none');
+        biaoshi += 1;
+
+    };
+});
+
+
+// --------------------------------------
+
+//登录
+var go = $('.go')
+var DH, MM, YZM;
+
 touch.on(go, 'tap', function() {
     if (s3.attr('class') == 's3 show') {
         DH = s3_DH.val();
         MM = s3_MM.val();
-        if (DH.length == 11) {
+
+        console.log(biaoshi);
+        if (biaoshi == 2) {
             location = './找房无忧首页.html';
         };
     } else {
         DH = s3_2_DH.val();
         YZM = YZMobj.val();
-        if (DH.length == 11 && YZM == '123') {
+
+        //验证码检查
+        if (YZM == 123) {
+            YZMobj.siblings('span').css('display', 'none');
+            biaoshi += 1;
+        } else {
+            YZMobj.siblings('span').css('display', 'block');
+        };
+        console.log(biaoshi);
+        if (biaoshi == 2) {
             location = './找房无忧首页.html';
         };
     };
